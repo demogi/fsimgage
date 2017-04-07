@@ -1,0 +1,19 @@
+{
+  "name": "fsimgage",
+  "version": "1.0.0",
+  "description": "FSI Room Mobile Engage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demogi/fsimgage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demogi/fsimgage/issues"
+  },
+  "homepage": "https://github.com/demogi/fsimgage#readme"
+}
