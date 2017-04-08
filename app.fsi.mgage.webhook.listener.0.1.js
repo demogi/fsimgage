@@ -24,7 +24,7 @@ app.post('/notification', function(req, res){
     console.log(req.body);
 
     var json = req.body;
-    print(json);
+    console.log(json);
 
     res.end();
 
