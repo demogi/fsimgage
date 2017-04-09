@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/demogi/fsimgage#readme",
   "dependencies": {
+    "atob": "^2.0.3",
     "body-parser": "^1.17.1",
     "express": "^4.15.2"
   }
