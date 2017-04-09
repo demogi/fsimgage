@@ -30,3 +30,17 @@ app.post('/notification', function(req, res){
 
 });
 
+app.post('/fsi/room/spark', function(req, res){
+
+    console.log(res.headers);
+    console.log(req.body);
+
+    var json = req.body;
+    // handleAdvisorRoomEvents(json);
+
+    res.end();
+    // res.send();
+
+});
+
+// edit
