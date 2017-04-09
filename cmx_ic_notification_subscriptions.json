@@ -1,0 +1,128 @@
+{
+  "Notifications": [
+    {
+      "name": "fsi_wedge_out_vertical_room",
+      "userId": "admin",
+      "rules": [
+        {
+          "conditions": [
+            {
+              "condition": "inout.in/out == out"
+            },
+            {
+              "condition": "inout.hierarchy == System Campus>TRN6>TRN6-29>TORIC-Vertical-Rm"
+            }
+          ]
+        }
+      ],
+      "subscribers": [
+        {
+          "receivers": [
+            {
+              "uri": "http://192.168.55.17:8080/notification",
+              "messageFormat": "JSON",
+              "qos": "AT_MOST_ONCE"
+            }
+          ]
+        }
+      ],
+      "enabled": true,
+      "enableMacScrambling": false,
+      "macScramblingSalt": "",
+      "notificationType": "InOut"
+    },
+    {
+      "name": "fsi_wedge_in_vertical_room",
+      "userId": "admin",
+      "rules": [
+        {
+          "conditions": [
+            {
+              "condition": "inout.in/out == in"
+            },
+            {
+              "condition": "inout.hierarchy == System Campus>TRN6>TRN6-29>TORIC-Vertical-Rm"
+            }
+          ]
+        }
+      ],
+      "subscribers": [
+        {
+          "receivers": [
+            {
+              "uri": "http://192.168.55.17:8080/notification",
+              "messageFormat": "JSON",
+              "qos": "AT_MOST_ONCE"
+            }
+          ]
+        }
+      ],
+      "enabled": true,
+      "enableMacScrambling": false,
+      "macScramblingSalt": "",
+      "notificationType": "InOut"
+    },
+    {
+      "name": "fsi_wedge_out_vertical_room_east_entrance",
+      "userId": "admin",
+      "rules": [
+        {
+          "conditions": [
+            {
+              "condition": "inout.in/out == out"
+            },
+            {
+              "condition": "inout.hierarchy == System Campus>TRN6>TRN6-29>TORIC-East-Entrance"
+            }
+          ]
+        }
+      ],
+      "subscribers": [
+        {
+          "receivers": [
+            {
+              "uri": "http://192.168.55.17:8080/notification",
+              "messageFormat": "JSON",
+              "qos": "AT_MOST_ONCE"
+            }
+          ]
+        }
+      ],
+      "enabled": true,
+      "enableMacScrambling": false,
+      "macScramblingSalt": "",
+      "notificationType": "InOut"
+    },
+    {
+      "name": "fsi_wedge_in_vertical_room_east_entrance",
+      "userId": "admin",
+      "rules": [
+        {
+          "conditions": [
+            {
+              "condition": "inout.in/out == in"
+            },
+            {
+              "condition": "inout.hierarchy == System Campus>TRN6>TRN6-29>TORIC-East-Entrance"
+            }
+          ]
+        }
+      ],
+      "subscribers": [
+        {
+          "receivers": [
+            {
+              "uri": "http://192.168.55.17:8080/notification",
+              "messageFormat": "JSON",
+              "qos": "AT_MOST_ONCE"
+            }
+          ]
+        }
+      ],
+      "enabled": true,
+      "enableMacScrambling": false,
+      "macScramblingSalt": "",
+      "notificationType": "InOut"
+    }
+  ]
+}
